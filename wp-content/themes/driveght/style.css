@@ -82,7 +82,7 @@ ul#nav {
 	list-style-type: none;
 	line-height: 60px;
 	height: 60px;
-	background: url("http://driveght.com.au/wp-content/themes/driveght/images/bg-nav-ul.gif") repeat-x top left;
+	background: url("/wp-content/themes/driveght/images/bg-nav-ul.gif") repeat-x top left;
 }
 
 ul#nav li {
