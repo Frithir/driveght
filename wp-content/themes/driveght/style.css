@@ -8,474 +8,475 @@ Tags: Frithir.
 */
 
 body {
-	margin: 0;
-	padding: 0;
-	font-family: "Helvetica neue", Helvetica, Arial, sans-serif;
-	background: #000;
-	text-align: center;
-	font-weight: normal;
-	letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica neue', Helvetica, Arial, sans-serif;
+  background: #000;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 1px;
 }
 
 /*######################################################################################*/
 
 div.outer {
-	width: 100%;
-	overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
 div.wraphead {
-	background: url("images/head.png") top center no-repeat;
+  background: url('images/head.png') top center no-repeat;
 }
 
 body.home div.wrapcontent {
-	background: url("images/content.jpg") top center no-repeat;
+  background: url('images/content.jpg') top center no-repeat;
 }
 
 div.wrap {
-	width: 981px;
-	margin: 0 auto;
-	text-align: left;
+  width: 981px;
+  margin: 0 auto;
+  text-align: left;
 }
 
 div#head {
-	height: 127px;
-	position: relative;
-	overflow: hidden;
+  height: 127px;
+  position: relative;
+  overflow: hidden;
 }
 
 h1#logo {
-	height: 87px;
-	width: 200px;
-	margin: 25px 0 0 0;
-	padding: 0;
+  height: 87px;
+  width: 200px;
+  margin: 25px 0 0 0;
+  padding: 0;
 }
 
 h1#logo a {
-	height: 87px;
-	width: 231px;
-	display: block;
-	background: url("images/logo.png") 0 0 no-repeat;
+  height: 87px;
+  width: 231px;
+  display: block;
+  background: url('images/logo.png') 0 0 no-repeat;
 }
 
 h2#tagline {
-	background: url("images/tagline.png") 0 0 no-repeat;
-	position: absolute;
-	right: 0;
-	bottom: 17px;
-	margin: 0;
-	padding: 0;
-	width: 400px;
-	height: 41px;
+  background: url('images/tagline.png') 0 0 no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: 17px;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: 41px;
 }
 
 div#content {
-	position: relative;
-	width: 981px;
-	overflow: hidden;
+  position: relative;
+  width: 981px;
+  overflow: hidden;
 }
 
 ul#nav {
-	margin:0;
-	padding: 0;
-	cursor: default;
-	list-style-type: none;
-	line-height: 60px;
-	height: 60px;
-	background: url("/wp-content/themes/driveght/images/bg-nav-ul.gif") repeat-x top left;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  list-style-type: none;
+  line-height: 60px;
+  height: 60px;
 }
 
 ul#nav li {
-	float: left;
-	padding: 0;
-	position: relative;
-	line-height: 60px;
-	margin: 0 100px 0 0;
+  float: left;
+  padding: 0;
+  position: relative;
+  line-height: 60px;
+  margin: 0 100px 0 0;
 }
 
 ul#nav li a {
-	color: #fff;
-	float: left;
-	display: block;
-	padding: 0 5px;
-	font-size: 18px;
-	font-weight: lighter;
+  color: #fff;
+  float: left;
+  display: block;
+  padding: 0 5px;
+  font-size: 18px;
+  font-weight: lighter;
 }
 
-ul#nav li.current_page_parent a, ul#nav li.current_page_ancestor a, ul#nav li.current_page_item a {
-	color: #fff;
+ul#nav li.current_page_parent a,
+ul#nav li.current_page_ancestor a,
+ul#nav li.current_page_item a {
+  color: #fff;
 }
 
-ul#nav li a:hover, ul#nav li:hover a {
-	color: #fff !important;
-	background: none !important;
+ul#nav li a:hover,
+ul#nav li:hover a {
+  color: #fff !important;
+  background: none !important;
 }
 
-ul#nav li a:hover ul li, ul#nav li:hover a ul li {
-	background: none;
+ul#nav li a:hover ul li,
+ul#nav li:hover a ul li {
+  background: none;
 }
 
-ul#nav li a:hover ul, ul#nav li:hover a ul {
-	background: #999 !Important;
+ul#nav li a:hover ul,
+ul#nav li:hover a ul {
+  background: #999 !important;
 }
-
 
 ul#nav li.last {
-	float: right;
-	padding: 0;
-	position: relative;
+  float: right;
+  padding: 0;
+  position: relative;
 }
-
 
 /*####flyout#####*/
 
 ul#nav li.on,
 ul#nav li:hover,
 ul#nav li.iehover {
-	color:#000;
+  color: #000;
 }
 
 ul#nav a:hover,
 ul#nav li:hover a,
 ul#nav li:hover span,
-ul#nav li.iehover a  {
-	color: #000;
+ul#nav li.iehover a {
+  color: #000;
 }
 
 ul#nav li:hover ul,
 ul#nav li.iehover ul {
-	display: block;
-	background: #000;
-	color: #000;
+  display: block;
+  background: #000;
+  color: #000;
 }
 
 ul#nav ul {
-	display: none;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	background: #333 !Important;
-	position: absolute;
-	top: 60px;
-	left: 0;
-	width: 180px;
-	border-bottom: 1px #666 solid;
-	border-right: 1px #666 solid;
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #333 !important;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 180px;
+  border-bottom: 1px #666 solid;
+  border-right: 1px #666 solid;
 }
 
 ul#nav ul li {
-	float: none;
-	background: none;
-	margin: 0;
-	padding: 0;
-	line-height: normal;
+  float: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
 }
 
 ul#nav ul li a,
 ul#nav li.on ul li a,
 ul#nav li:hover ul li a,
 ul#nav li.iehover ul li a {
-	background:none;
-	display: block;
-	width: auto;
-	height: 1%;
-	float: none;
-	color:#000;
-	padding: 8px 5px 8px 18px;
+  background: none;
+  display: block;
+  width: auto;
+  height: 1%;
+  float: none;
+  color: #000;
+  padding: 8px 5px 8px 18px;
 }
 
 ul#nav ul li a:hover,
 ul#nav li.on ul li a:hover,
 ul#nav li:hover ul li a:hover,
 ul#nav li.iehover ul li a:hover {
-	background: #00BE00 !important;
+  background: #00be00 !important;
 }
 
 /*######################################################################################*/
 
 h2#track {
-	margin: 120px 0 170px 0;
-	padding: 0;
-	display: block;
-	width: 100%;
-	color: #fff;
-	font-size: 33px;
-	font-weight: lighter;
-	letter-spacing: 1px;
+  margin: 120px 0 170px 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 33px;
+  font-weight: lighter;
+  letter-spacing: 1px;
 }
 
 /*######################################################################################*/
 
 div#pods {
-	width: 981px;
-	overflow: hidden;
-	min-height: 288px;
-	_height: 288px;
-	margin: 0 0 40px 0;
+  width: 981px;
+  overflow: hidden;
+  min-height: 288px;
+  _height: 288px;
+  margin: 0 0 40px 0;
 }
 
 div.box {
-	width: 287px;
-	margin: 0 10px;
-	padding: 10px;
-	display: inline;
-	color: #fff;
-	float: left;
-	background: url("images/box.png") 0 0 no-repeat;
-	text-align: center;
+  width: 287px;
+  margin: 0 10px;
+  padding: 10px;
+  display: inline;
+  color: #fff;
+  float: left;
+  background: url('images/box.png') 0 0 no-repeat;
+  text-align: center;
 }
 
 div.box h1 {
-	margin: 0 0 30px 0;
-	padding: 0;
-	font-weight: lighter;
-	color: #ffffff;
-	text-align: left;
+  margin: 0 0 30px 0;
+  padding: 0;
+  font-weight: lighter;
+  color: #ffffff;
+  text-align: left;
 }
 
 div.box h1 a {
-	color: #fff;
+  color: #fff;
 }
 
 div.box h1 a:hover {
-	color: #00db00;
-	text-decoration: none;
+  color: #00db00;
+  text-decoration: none;
 }
 
 div.box img {
-	margin: 10px auto;
-	border: none;
+  margin: 10px auto;
+  border: none;
 }
 
 div.box h3 {
-	margin: 0;
-	padding: 0;
-	font-weight: lighter;
-	font-size: 14px;
-	color: #00db00;
-	text-transform: uppercase;
-	text-align: left;
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #00db00;
+  text-transform: uppercase;
+  text-align: left;
 }
 
 div.box p {
-	font-size: 13px;
-	line-height: 140%;
-	text-align: left;
-	margin: 0;
-	padding: 5px 0 0 0;
+  font-size: 13px;
+  line-height: 140%;
+  text-align: left;
+  margin: 0;
+  padding: 5px 0 0 0;
 }
 
 /*######################################################################################*/
 
 div#text-panel {
-	background: url("images/text-panel.png") 0 0 no-repeat;
-	overflow: hidden;
-	padding: 20px 20px 20px 0;
-	color: #fff;
-	line-height: 140%;
+  background: url('images/text-panel.png') 0 0 no-repeat;
+  overflow: hidden;
+  padding: 20px 20px 20px 0;
+  color: #fff;
+  line-height: 140%;
 }
 
 div#text-panel h1 {
-	margin: 10px 0 30px 0;
-	padding: 0;
-	font-weight: lighter;
-	color: #00BE00;
-	font-size: 24px;
+  margin: 10px 0 30px 0;
+  padding: 0;
+  font-weight: lighter;
+  color: #00be00;
+  font-size: 24px;
 }
 
 div#text-panel h2,
 div#text-panel h3 {
-	margin: 10px 0;
-	padding: 0;
-	font-weight: lighter;
+  margin: 10px 0;
+  padding: 0;
+  font-weight: lighter;
 }
 
 div#text-panel p {
-	margin: 0 0 5px 0;
-	padding: 0;
-	font-size: 14px;
+  margin: 0 0 5px 0;
+  padding: 0;
+  font-size: 14px;
 }
 
 div#text-panel ul,
 div#text-panel ol {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 div#text-panel a {
-	color: #00BE00;
+  color: #00be00;
 }
 
 div#text-panel img,
 div#text-panel img a {
-	border: none;
+  border: none;
 }
 
 /*######################################################################################*/
 
 #tours h2 {
-	margin: 40px 0;
+  margin: 40px 0;
 }
 
 #tours h3 {
-	display: block;
-	height: 30px;
-	background: url("images/wrapfooter.png") top center no-repeat;
-	color: #00BE00;
-	padding: 5px 20px 20px 20px;
-	float: left;
-	width: 100%;
+  display: block;
+  height: 30px;
+  background: url('images/wrapfooter.png') top center no-repeat;
+  color: #00be00;
+  padding: 5px 20px 20px 20px;
+  float: left;
+  width: 100%;
 }
 
 #tours h3 span {
-	display: block;
-	height: 30px;
-	background: url("images/tour-h3.png") 0 0 repeat-x;
-	color: #00BE00;
-	font-size: 30px;
+  display: block;
+  height: 30px;
+  background: url('images/tour-h3.png') 0 0 repeat-x;
+  color: #00be00;
+  font-size: 30px;
 }
 
 div.wrap-cat {
-	width: 100%;
-	overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
 div.windows {
-	float: left;
-	margin: 0;
-	padding: 10px 15px;
-	overflow: hidden;
-	width: 30%;
-	font-size: 20px;
-	min-height: 500px;
+  float: left;
+  margin: 0;
+  padding: 10px 15px;
+  overflow: hidden;
+  width: 30%;
+  font-size: 20px;
+  min-height: 500px;
 }
 
 a.link {
-	display: block;
-	margin: 0 0 20px 0;
+  display: block;
+  margin: 0 0 20px 0;
 }
 
 .price {
-	display: none;
+  display: none;
 }
 
 .hidden-field,
 #packages .inline {
-	display: none;
+  display: none;
 }
 
 .wpcf7-submit {
-	background: #00BE00;
-	border: none;
-	color: #fff;
-	line-height: 22px;
-	height: 22px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	text-shadow: 1px 1px 1px #000000;
-	filter: dropshadow(color=#000000, offx=1, offy=1);
+  background: #00be00;
+  border: none;
+  color: #fff;
+  line-height: 22px;
+  height: 22px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px #000000;
+  filter: dropshadow(color=#000000, offx=1, offy=1);
 }
 
 .inline {
-	text-align: center;
+  text-align: center;
 }
 
 /*######################################################################################*/
 
 div.wrapfooter {
-	margin: 0 0 40px 0;
-	background: #333;
-	min-height: 14px;
-	_height: 14px;
-	background: url("images/wrapfooter.png") top center no-repeat
+  margin: 0 0 40px 0;
+  background: #333;
+  min-height: 14px;
+  _height: 14px;
+  background: url('images/wrapfooter.png') top center no-repeat;
 }
 
 div.right {
-	float:right;
-	color: #fff;
-	width: 280px;
-	margin: 20px 0 0 0;
-	line-height: 32px;
-	font-size: 13px;
+  float: right;
+  color: #fff;
+  width: 280px;
+  margin: 20px 0 0 0;
+  line-height: 32px;
+  font-size: 13px;
 }
 
 div.right p {
-	float: left;
-	color: #fff;
-	line-height: 32px;
-	font-size: 13px;
-	margin:  0 0 0 10px;
+  float: left;
+  color: #fff;
+  line-height: 32px;
+  font-size: 13px;
+  margin: 0 0 0 10px;
 }
 
 .links {
-	font-size: 13px;
-	color: #fff;
-	display: block;
-	float: left;
-    font-size: 13px;
-    line-height: 72px;
-    height: 72px;
+  font-size: 13px;
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 13px;
+  line-height: 72px;
+  height: 72px;
 }
 /*######################################################################################*/
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .hide {
-	text-indent: -999px;
-	font-size: 0;
-	color: #000;
-	overflow: hidden;
+  text-indent: -999px;
+  font-size: 0;
+  color: #000;
+  overflow: hidden;
 }
 
 a img {
-	border: none;
+  border: none;
 }
 
 p img {
-	padding: 0;
-	max-width: 100%;
-	}
-
+  padding: 0;
+  max-width: 100%;
+}
 
 img.centered {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	}
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 img.alignnone {
-	padding: 4px;
-	margin: 0 0 5px 0;
-	display: inline;
-	}
+  padding: 4px;
+  margin: 0 0 5px 0;
+  display: inline;
+}
 
 img.alignright {
-	padding: 4px;
-	margin: 0 0 2px 7px;
-	display: inline;
-	}
+  padding: 4px;
+  margin: 0 0 2px 7px;
+  display: inline;
+}
 
 img.alignleft {
-	padding: 4px;
-	margin: 0 7px 2px 0;
-	display: inline;
-	}
+  padding: 4px;
+  margin: 0 7px 2px 0;
+  display: inline;
+}
 
 img.alignleftblock {
-	padding: 4px;
-	margin: 0 7px 2px 0;
-	display: block;
-	}
+  padding: 4px;
+  margin: 0 7px 2px 0;
+  display: block;
+}
 
 .alignright {
-	float: right;
-	}
+  float: right;
+}
 
 .alignleft {
-	float: left;
-	}
+  float: left;
+}
